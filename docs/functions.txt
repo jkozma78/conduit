@@ -1,0 +1,15 @@
+01 felhasználó regisztráció: az oldalra be lehet regisztrálni felhasználónévvel és jelszóval
+
+02 felhasználó bejelentkezés: regisztrált felhasználónévvel és jelszóval be lehet lépnni az oldalra
+
+03 felhasználó kijelentkezés: a bejelentkezett felhasználó kijelentkezhet az oldalról
+
+04 bejelentkezett felhasználó által mások követése: follow gombra kattintva az adott felhasználó követhető
+
+05 bejelentkezett felhasználó által új post létrehozása: a New article gombra kattintva megjelenik egy form új bejegyzés létrehozásához
+
+06 bejelentkezett felhasználó által létrehozott post szerkesztése: egy saját post címére kattintva megjelenik a post és az Edit article gombra kattintva megjelenik a szerkesztő form
+
+07 bejelentkezett felhasználó által létrehozott post listázása: a felhasználónévre kattintva kilistázódnak a felhasználó által létrehozott post(ok)
+
+08 bejelentkezett felhasználó által létrehozott post törlése: egy saját post címére kattintva megjelenik a post, a delete article gombbal törölhető a post
