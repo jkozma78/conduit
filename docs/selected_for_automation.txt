@@ -1,0 +1,3 @@
+a01, tc-01 felhasználó regisztrációja
+a02, tc-02 regisztrált felhasználó(k) login-logout
+a03, tc-05 újpost létrehozása
