@@ -16,6 +16,8 @@ def browser():
     driver.implicitly_wait(10)
     return driver
 
+def test_load(browser):
+    assert browser.title == "Conduit"
 
 def test_registration(browser):
     
