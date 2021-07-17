@@ -1,0 +1,41 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Seleniumide
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - run: docker-compose up -d
+    
+    - name: install Nodejs
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Selenium Side Runner
+      run: |
+       npm install -g selenium-side-runner
+       
+    - name: Install Chrome
+      run: |
+       sudo apt install google-chrome-stable
+    - name: Install seleniumbase
+      run: pip install seleniumbase
+
+    - name: Install chromedriver
+      run: |
+       seleniumbase install chromedriver
+       
+    - name: Run Tests
+      run: |
+       pytest
