@@ -13,3 +13,4 @@ def test_one():
     driver.implicitly_wait(10)
     driver.get('http://localhost:1667')
     assert driver.title == 'Conduit'
+    assert driver.title == "cond"
