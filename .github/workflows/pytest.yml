@@ -25,12 +25,12 @@ jobs:
       run: |
        sudo apt install google-chrome-stable
 
-    - name: Install seleniumbase
-      run: pip install seleniumbase
+    - name: Install selenium
+      run: pip install selenium
 
     - name: Install chromedriver
       run: |
-       seleniumbase install chromedriver
+       selenium install chromedriver
 
        
     - name: Install dependencies
