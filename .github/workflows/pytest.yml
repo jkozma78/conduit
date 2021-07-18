@@ -17,9 +17,15 @@ jobs:
     - uses: actions/checkout@v2
     - run: docker-compose up -d
 
-    - name: Install dependencies
+    - name: Install Chrome
       run: |
-       python -m pip install --upgrade pip
+       sudo apt install google-chrome-stable
+    - name: Install seleniumbase
+      run: pip install seleniumbase
+
+    - name: Install chromedriver
+      run: |
+       seleniumbase install chromedriver
        
     - name: Run Tests
       run: |
