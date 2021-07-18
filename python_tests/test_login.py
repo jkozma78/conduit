@@ -13,13 +13,13 @@ def browser():
     driver = webdriver.Chrome(options=options)
 
     driver.implicitly_wait(10)
-    driver.get('https://index.hu/')
+    driver.get('http://localhost:1667/#/')
     # time.sleep(10)
     return driver
 
 
 def test_login(browser):
-    print(browser.title)
+
     assert browser.title == 'Index'
     # browser.find_element_by_xpath('//*[@href="#/login"]').click()
     browser.find_element_by_tag_name('button').click()
