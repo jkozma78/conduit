@@ -13,5 +13,5 @@ def browser():
     driver.get('http://localhost:1667')
 
 
-def test_login():
-    pass
+def test_login(browser):
+    assert browser.title == 'Conduit'
