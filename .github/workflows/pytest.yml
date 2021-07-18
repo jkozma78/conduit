@@ -5,9 +5,9 @@ name: Python testecske
 
 on:
   push:
-    branches: [ main ]
+    branches: [ maaster ]
   pull_request:
-    branches: [ main ]
+    branches: [ maaster ]
 
 jobs:
   build:
