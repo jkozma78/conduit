@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -12,6 +14,7 @@ def browser():
 
     driver.implicitly_wait(10)
     driver.get('http://localhost:1667')
+    time.sleep(10)
     return driver
 
 
