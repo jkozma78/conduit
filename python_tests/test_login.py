@@ -20,7 +20,7 @@ def browser():
 
 def test_login(browser):
 
-    assert browser.title == 'Index'
+    assert browser.title == 'Conduit'
     # browser.find_element_by_xpath('//*[@href="#/login"]').click()
     browser.find_element_by_tag_name('button').click()
 
