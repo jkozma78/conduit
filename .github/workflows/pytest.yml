@@ -19,7 +19,7 @@ jobs:
         python-version: [3.9]
 
     steps:
-    - name: Start dockerfile
+    
     - uses: actions/checkout@v2
     - run: docker-compose up -d
     - name: Set up Python ${{ matrix.python-version }}
