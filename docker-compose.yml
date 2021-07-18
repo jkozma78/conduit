@@ -13,6 +13,7 @@ services:
       - POSTGRES_PASSWORD=userpassword
     networks:
       - drash-app-network
+    restart: always
 
   drash:
     container_name: realworld_drash
@@ -24,6 +25,8 @@ services:
       - "1667:1667"
     networks:
       - drash-app-network
+    restart: always
+
 
 networks:
   drash-app-network:
