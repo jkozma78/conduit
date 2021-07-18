@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: Start dockerfile
-      run: docker-copmpose up -d
+      run: docker-compose up -d
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
