@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Pytest_conduit
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - run: docker-compose up -d
+
+    
+    - name: Install req
+      run: pip install -r requirements.txt
+
+    - name: Install Chrome
+      run: |
+       sudo apt install google-chrome-stable
+    
+
+       
+    - name: Run Tests
+      run: |
+       pytest
