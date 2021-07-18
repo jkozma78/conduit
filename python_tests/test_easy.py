@@ -14,3 +14,5 @@ def test_one():
     driver.implicitly_wait(10)
     driver.get('http://localhost:1667')
     assert driver.title == 'Conduit'
+    driver.find_element_by_xpath('//a[@href="#/login"]').click()
+    assert browser.find_element_by_tag_name('h1').text == "Sign in"
