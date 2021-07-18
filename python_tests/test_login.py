@@ -18,3 +18,7 @@ def browser():
 def test_login(browser):
     assert browser.title == 'Conduit'
     browser.find_element_by_xpath('//*[@href="#/login"]').click()
+
+
+if __name__ == "__main__":
+    test_login()
