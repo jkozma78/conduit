@@ -17,6 +17,6 @@ def browser():
 
 def test_login(browser):
     assert browser.title == 'Conduit'
-    browser.find_element(By.XPATH, '//*[@href="#/login"]').click()
+    browser.find_element_by_tag_name("button").click()
     # browser.find_element_by_xpath('//*[@href="#/login"]').click()
     assert browser.find_element_by_tag_name('h1').text == "Sign in"
