@@ -5,10 +5,11 @@ from selenium.webdriver.chrome.options import Options
 
 @pytest.fixture(scope='session')
 def browser():
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--disable-gpu')  # Last I checked this was necessary.
-    driver = webdriver.Chrome(options=options)
+    # options = Options()
+    # options.add_argument('--headless')
+    # options.add_argument('--disable-gpu')  # Last I checked this was necessary.
+    # driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome()
     driver.implicitly_wait(10)
     driver.get('http://localhost:1667')
     return driver
@@ -16,5 +17,5 @@ def browser():
 
 def test_login(browser):
     assert browser.title == 'Conduit'
-    browser.find_element_by_xpath('//a[@href="#/login"]').click()
+    browser.find_element_by_xpath('//*[@href="#/login"]').click()
     assert browser.find_element_by_tag_name('h1').text == "Sign in"
