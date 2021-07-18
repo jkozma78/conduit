@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.common.by import By
 
 @pytest.fixture(scope='session')
 def browser():
@@ -17,5 +17,6 @@ def browser():
 
 def test_login(browser):
     assert browser.title == 'Conduit'
-    browser.find_element_by_xpath('//*[@href="#/login"]').click()
+    browser.find_element(By.XPATH, '//*[@href="#/login"]').click()
+    # browser.find_element_by_xpath('//*[@href="#/login"]').click()
     assert browser.find_element_by_tag_name('h1').text == "Sign in"
