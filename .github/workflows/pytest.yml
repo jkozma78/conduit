@@ -16,22 +16,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: docker-compose up -d
-    
-    
-
-    - name: Install Selenium Side Runner
-      run: |
-       npm install -g selenium-side-runner
-       
-    - name: Install Chrome
-      run: |
-       sudo apt install google-chrome-stable
-    - name: Install seleniumbase
-      run: pip install seleniumbase
-
-    - name: Install chromedriver
-      run: |
-       seleniumbase install chromedriver
        
     - name: Run Tests
       run: |
