@@ -19,6 +19,8 @@ jobs:
         python-version: [3.9]
 
     steps:
+    - name: Start dockerfile
+        run: docker-copmpose up -d
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
