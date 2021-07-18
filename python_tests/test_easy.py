@@ -12,6 +12,7 @@ def test_one():
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(10)
     driver.get('http://localhost:1667/#/')
+    driver.fullscreen_window()
     element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//a[@href="#/login"]')))
     # driver.find_element_by_xpath('//a[@href="#/login"]').click()
     element.click()
