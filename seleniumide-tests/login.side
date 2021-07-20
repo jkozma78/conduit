@@ -94,18 +94,16 @@
       ],
       "value": "${KEY_ENTER}"
     }, {
-      "id": "9478648f-48f5-4be6-8295-ad4779f4bccf",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "",
-      "targets": [],
-      "value": "30000"
-    }, {
       "id": "ee010228-64c8-4f5c-bfba-a566790643cb",
       "comment": "",
       "command": "click",
-      "target": "css=.btn",
-      "targets": [],
+      "target": "xpath=//button[@class=\"btn btn-lg btn-primary pull-xs-right\"]",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "16b4010f-5695-46f9-a6ed-674780f7a3b0",
