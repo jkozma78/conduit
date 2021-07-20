@@ -38,3 +38,4 @@ def test_login(browser):
     browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
     d = WebDriverWait(browser, 10).until(EC.visibility_of_element_located((By.XPATH, "//a[@href='#/@Jani/']")))
     assert d.text == "Jani"
+
