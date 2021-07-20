@@ -101,27 +101,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "3bffae82-6679-41b2-bd92-8c81a115e5bb",
-      "comment": "",
-      "command": "//mouseOver",
-      "target": "css=.btn",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "c546538f-ab91-4ca5-9794-ee683ebcddab",
-      "comment": "",
-      "command": "//mouseOut",
-      "target": "css=.btn",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "2e061d21-2e5d-480f-89d0-812266e1428a",
-      "comment": "",
-      "command": "//mouseOver",
-      "target": "css=.btn",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "16b4010f-5695-46f9-a6ed-674780f7a3b0",
       "comment": "",
       "command": "assertElementPresent",
