@@ -40,7 +40,11 @@ jobs:
       run: |
        seleniumbase install chromedriver
        
-    - name: Run Tests
+    - name: Run Tests reg
       run: |
         selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" seleniumide-tests/registration.side
+        selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" seleniumide-tests/login.side
+
+    - name: Run Tests login
+      run: |
         selenium-side-runner -c "browserName=chrome goog:chromeOptions.args=[disable-infobars, headless]" seleniumide-tests/login.side
