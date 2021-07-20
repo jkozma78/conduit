@@ -48,16 +48,6 @@
       ],
       "value": "valamik@valamik.com"
     }, {
-      "id": "72c1ed25-f041-4a14-a3c0-c7232138b6bc",
-      "comment": "",
-      "command": "click",
-      "target": "css=html",
-      "targets": [
-        ["css=html", "css:finder"],
-        ["xpath=//html", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "62d01f7c-ce89-4771-99c2-bc21d2728ae8",
       "comment": "",
       "command": "click",
@@ -93,6 +83,13 @@
         ["xpath=//fieldset[2]/input", "xpath:position"]
       ],
       "value": "${KEY_ENTER}"
+    }, {
+      "id": "0ddb758c-166a-46fb-aadd-4b030d52972f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//button[@class=\"btn btn-lg btn-primary pull-xs-right\"]",
+      "targets": [],
+      "value": "30000"
     }, {
       "id": "ee010228-64c8-4f5c-bfba-a566790643cb",
       "comment": "",
