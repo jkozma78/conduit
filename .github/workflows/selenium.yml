@@ -16,6 +16,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: docker-compose up -d
+
+    - name: Sleep for 45 seconds
+      run: sleep 45s
+      shell: bash
     
     - name: install Nodejs
       uses: actions/setup-node@v2
