@@ -27,9 +27,9 @@ def test_register(browser):
     browser.find_element_by_xpath('//input[@placeholder="Email"]').send_keys("jani@jani.com")
     browser.find_element_by_xpath('//input[@placeholder="Password"]').send_keys("Jani1234")
     browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
-    WebDriverWait(browser, 10).until(
-        EC.visibility_of_element_located((By.XPATH, "//div[@class='swal-button-container']"))).click()
-
+    wait = WebDriverWait(browser, 10).until(
+        EC.visibility_of_element_located((By.XPATH, "//div[@class='swal-button-container']")))
+    wait.click()
     browser.find_element_by_xpath('//a[@active-class="active"]').click()
 
 
