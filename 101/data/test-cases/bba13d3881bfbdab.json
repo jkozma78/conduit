@@ -1,0 +1,75 @@
+{
+  "uid" : "bba13d3881bfbdab",
+  "name" : "test_register",
+  "fullName" : "python_tests.test_conduit#test_register",
+  "historyId" : "4bd8a7cbe9ae1f7a88d8798aaa3865ed",
+  "time" : {
+    "start" : 1626953737648,
+    "stop" : 1626953737648,
+    "duration" : 0
+  },
+  "description" : "a user registration",
+  "descriptionHtml" : "<p>a user registration</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/conduit/conduit/python_tests/test_conduit.py', 40, 'Skipped: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1626953737676,
+      "stop" : 1626953739442,
+      "duration" : 1766
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-172"
+  }, {
+    "name" : "thread",
+    "value" : "4136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='no way of currently testing this')" ]
+  },
+  "source" : "bba13d3881bfbdab.json",
+  "parameterValues" : [ ]
+}

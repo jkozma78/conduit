@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "python_tests.test_conduit",
+    "children" : [ {
+      "name" : "test_register",
+      "uid" : "bba13d3881bfbdab",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1626953737648,
+        "stop" : 1626953737648,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login",
+      "uid" : "8316142f77841604",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626953739443,
+        "stop" : 1626953751026,
+        "duration" : 11583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_accept_cookies",
+      "uid" : "1032cb947654b253",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1626953751090,
+        "stop" : 1626953752196,
+        "duration" : 1106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "python_tests.test_conduit"
+  } ],
+  "name" : "packages"
+}

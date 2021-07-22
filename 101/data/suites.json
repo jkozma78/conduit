@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "python_tests",
+    "children" : [ {
+      "name" : "test_conduit",
+      "children" : [ {
+        "name" : "test_register",
+        "uid" : "bba13d3881bfbdab",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1626953737648,
+          "stop" : 1626953737648,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "8316142f77841604",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626953739443,
+          "stop" : 1626953751026,
+          "duration" : 11583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_accept_cookies",
+        "uid" : "1032cb947654b253",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1626953751090,
+          "stop" : 1626953752196,
+          "duration" : 1106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e6604f6105f2acd5cc911f5fbb31ad0"
+    } ],
+    "uid" : "9beff1eef4f0714d24b5819dd0545987"
+  } ],
+  "name" : "suites"
+}
