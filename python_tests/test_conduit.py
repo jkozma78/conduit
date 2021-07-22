@@ -26,7 +26,8 @@ def find_locators(browser, xpath):
                 "Okbutton": '//button[@class="btn btn-lg btn-primary pull-xs-right"]',
                 "Modalbutton": "//div[@class='swal-button-container']",
                 "logout": '//a[@active-class="active"]',
-                "login": '//a[@href="#/login"]'}
+                "login": '//a[@href="#/login"]',
+                "accept": '//button[@class="cookie__bar__buttons__button cookie__bar__buttons__button--accept"]'}
     return browser.find_element_by_xpath(locators[xpath])
 
 
@@ -34,6 +35,11 @@ def wait_for_element(browser, xpath):
     """waiting for an xpath element to be visible"""
     return WebDriverWait(browser, 10).until(
         EC.visibility_of_element_located((By.XPATH, xpath)))
+
+
+def test_accept_cookies():
+    """accept cookies"""
+    find_locators(browser, "accept").click()
 
 
 def test_register(browser):
