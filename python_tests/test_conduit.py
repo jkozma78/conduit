@@ -37,14 +37,10 @@ def wait_for_element(browser, xpath):
         EC.visibility_of_element_located((By.XPATH, xpath)))
 
 
-def test_accept_cookies():
-    """accept cookies"""
-    find_locators(browser, "accept").click()
-
-
+@pytest.mark.skip(reason="no way of currently testing this")
 def test_register(browser):
     """a user registration"""
-    browser.get('http://localhost:1667/#/')
+    browser.get('http://localhost:1667/')
     find_locators(browser, "register").click()
     find_locators(browser, "Username").send_keys("Jani")
     find_locators(browser, "Email").send_keys("jani@jani.com")
@@ -56,9 +52,16 @@ def test_register(browser):
 
 def test_login(browser):
     """login with a registered user"""
+    browser.get('http://localhost:1667/')
     find_locators(browser, "login").click()
     find_locators(browser, "Email").send_keys("jani@jani.com")
     find_locators(browser, "Password").send_keys("Jani1234")
     find_locators(browser, "Okbutton").click()
     assert wait_for_element(browser, "//a[@href='#/@Jani/']").text == "Jani"
     find_locators(browser, "logout").click()
+
+
+def test_accept_cookies(browser):
+    """accept cookies"""
+    browser.get('http://localhost:1667/#/')
+    find_locators(browser, "accept").click()
