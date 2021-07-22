@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 
 @pytest.fixture(scope='session')
 def browser():
+    """init webbrowser with selenium"""
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')  # Last I checked this was necessary.
@@ -16,28 +17,42 @@ def browser():
     return driver
 
 
-elemek = ('//a[@href="#/register"]', '//input[@placeholder="Username"]')
+def find_locators(browser, xpath):
+    """a teszt során felhasznált xpath lokátorok egy locators dictionary-be rendezve"""
+    locators = {"register": '//a[@href="#/register"]',
+                "Username": '//input[@placeholder="Username"]',
+                "Email": '//input[@placeholder="Email"]',
+                "Password": '//input[@placeholder="Password"]',
+                "Okbutton": '//button[@class="btn btn-lg btn-primary pull-xs-right"]',
+                "Modalbutton": "//div[@class='swal-button-container']",
+                "logout": '//a[@active-class="active"]',
+                "login": '//a[@href="#/login"]'}
+    return browser.find_element_by_xpath(locators[xpath])
+
+
+def wait_for_element(browser, xpath):
+    """waiting for an xpath element to be visible"""
+    return WebDriverWait(browser, 10).until(
+        EC.visibility_of_element_located((By.XPATH, xpath)))
 
 
 def test_register(browser):
+    """a user registration"""
     browser.get('http://localhost:1667/#/')
-    # browser.find_element_by_xpath('//a[@href="#/register"]').click()
-    browser.find_element_by_xpath(elemek[0]).click()
-    browser.find_element_by_xpath(elemek[1]).send_keys("Jani")
-    browser.find_element_by_xpath('//input[@placeholder="Email"]').send_keys("jani@jani.com")
-    browser.find_element_by_xpath('//input[@placeholder="Password"]').send_keys("Jani1234")
-    browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
-    wait = WebDriverWait(browser, 10).until(
-        EC.visibility_of_element_located((By.XPATH, "//div[@class='swal-button-container']")))
-    wait.click()
-    browser.find_element_by_xpath('//a[@active-class="active"]').click()
+    find_locators(browser, "register").click()
+    find_locators(browser, "Username").send_keys("Jani")
+    find_locators(browser, "Email").send_keys("jani@jani.com")
+    find_locators(browser, "Password").send_keys("Jani1234")
+    find_locators(browser, "Okbutton").click()
+    wait_for_element(browser, "//div[@class='swal-button-container']").click()
+    find_locators(browser, "logout").click()
 
 
 def test_login(browser):
-    browser.find_element_by_xpath('//a[@href="#/login"]').click()
-    browser.find_element_by_xpath('//input[@placeholder="Email"]').send_keys("jani@jani.com")
-    browser.find_element_by_xpath('//input[@placeholder="Password"]').send_keys("Jani1234")
-    browser.find_element_by_xpath('//button[@class="btn btn-lg btn-primary pull-xs-right"]').click()
-    assert WebDriverWait(browser, 10).until(
-        EC.visibility_of_element_located((By.XPATH, "//a[@href='#/@Jani/']"))).text == "Jani"
-    browser.find_element_by_xpath('//a[@active-class="active"]').click()
+    """login with a registered user"""
+    find_locators(browser, "login").click()
+    find_locators(browser, "Email").send_keys("jani@jani.com")
+    find_locators(browser, "Password").send_keys("Jani1234")
+    find_locators(browser, "Okbutton").click()
+    assert wait_for_element(browser, "//a[@href='#/@Jani/']").text == "Jani"
+    find_locators(browser, "logout").click()
