@@ -37,7 +37,7 @@ def wait_for_element(browser, xpath):
         EC.visibility_of_element_located((By.XPATH, xpath)))
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+# @pytest.mark.skip(reason="no way of currently testing this")
 def test_register(browser):
     """a user registration"""
     browser.get('http://localhost:1667/')
