@@ -12,4 +12,4 @@
 
 07 bejelentkezett felhasználó által létrehozott post listázása: a felhasználónévre kattintva kilistázódnak a felhasználó által létrehozott post(ok)
 
-08 bejelentkezett felhasználó által létrehozott post törlése: egy saját post címére kattintva megjelenik a post, a delete article gombbal törölhető a post
+08 bejelentkezett felhasználó által létrehozott post törlése: egy saját post címére kattintva megjelenik a post, a delete article gombbal törölhető a posta
