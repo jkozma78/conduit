@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "python_tests",
+    "children" : [ {
+      "name" : "test_conduit",
+      "children" : [ {
+        "name" : "test_register",
+        "uid" : "487313de15ec8f27",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627142954886,
+          "stop" : 1627142957673,
+          "duration" : 2787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login",
+        "uid" : "f7e2a1069906b0d5",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627142957676,
+          "stop" : 1627142958600,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_accept_cookies",
+        "uid" : "fd41b5c7c92f89e8",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627142958602,
+          "stop" : 1627142958735,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pagination",
+        "uid" : "cdec34cefdf9d41b",
+        "parentUid" : "6e6604f6105f2acd5cc911f5fbb31ad0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627142958737,
+          "stop" : 1627142959685,
+          "duration" : 948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e6604f6105f2acd5cc911f5fbb31ad0"
+    } ],
+    "uid" : "9beff1eef4f0714d24b5819dd0545987"
+  } ],
+  "name" : "suites"
+}
