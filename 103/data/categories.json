@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "efeba90a2785c844",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627142677673,
+          "stop" : 1627142690110,
+          "duration" : 12437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_pagination",
+        "uid" : "53956d0028037136",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627142691353,
+          "stop" : 1627142702402,
+          "duration" : 11049
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class=\"cookie__bar__buttons__button cookie__bar__buttons__button--accept\">...</button> is not clickable at point (171, 569). Other element would receive the click: <div class=\"swal-overlay swal-overlay--show-modal\" tabindex=\"-1\">...</div>\n  (Session info: headless chrome=91.0.4472.164)",
+      "children" : [ {
+        "name" : "test_accept_cookies",
+        "uid" : "3d5c079ac664fb2b",
+        "parentUid" : "b51ea7ed2b499ce56f57b076c6c83657",
+        "status" : "broken",
+        "time" : {
+          "start" : 1627142690185,
+          "stop" : 1627142691287,
+          "duration" : 1102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b51ea7ed2b499ce56f57b076c6c83657"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
