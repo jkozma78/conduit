@@ -112,7 +112,7 @@ def test_save_data(browser):
         articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
-        with open("/python_tests/article.txt", "a") as articlefile:
+        with open("master/python_tests/article.txt", "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         browser.back()
