@@ -1,0 +1,182 @@
+{
+  "uid" : "447533acd3c384ad",
+  "name" : "test_register",
+  "fullName" : "python_tests.test_conduit#test_register",
+  "historyId" : "4bd8a7cbe9ae1f7a88d8798aaa3865ed",
+  "time" : {
+    "start" : 1628101133264,
+    "stop" : 1628101136701,
+    "duration" : 3437
+  },
+  "description" : "a user registration with valid data",
+  "descriptionHtml" : "<p>a user registration with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628101123322,
+      "stop" : 1628101131194,
+      "duration" : 7872
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-379"
+  }, {
+    "name" : "thread",
+    "value" : "3622-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "2a3aa7c069c22bce",
+        "reportUrl" : "https://jkozma78.github.io/conduit/111//#testresult/2a3aa7c069c22bce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100669424,
+          "stop" : 1628100672249,
+          "duration" : 2825
+        }
+      }, {
+        "uid" : "fd76a2d2124f2af5",
+        "reportUrl" : "https://jkozma78.github.io/conduit/110//#testresult/fd76a2d2124f2af5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100314943,
+          "stop" : 1628100317861,
+          "duration" : 2918
+        }
+      }, {
+        "uid" : "11f952aafac68d71",
+        "reportUrl" : "https://jkozma78.github.io/conduit/109//#testresult/11f952aafac68d71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100060469,
+          "stop" : 1628100063860,
+          "duration" : 3391
+        }
+      }, {
+        "uid" : "60cffc5885aa3eed",
+        "reportUrl" : "https://jkozma78.github.io/conduit/108//#testresult/60cffc5885aa3eed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628099300615,
+          "stop" : 1628099303752,
+          "duration" : 3137
+        }
+      }, {
+        "uid" : "f8e23802290d9b58",
+        "reportUrl" : "https://jkozma78.github.io/conduit/107//#testresult/f8e23802290d9b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628098838254,
+          "stop" : 1628098841202,
+          "duration" : 2948
+        }
+      }, {
+        "uid" : "bf118ca83854d596",
+        "reportUrl" : "https://jkozma78.github.io/conduit/106//#testresult/bf118ca83854d596",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628098019202,
+          "stop" : 1628098022098,
+          "duration" : 2896
+        }
+      }, {
+        "uid" : "89f448ad65dfe355",
+        "reportUrl" : "https://jkozma78.github.io/conduit/105//#testresult/89f448ad65dfe355",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628093187060,
+          "stop" : 1628093189830,
+          "duration" : 2770
+        }
+      }, {
+        "uid" : "487313de15ec8f27",
+        "reportUrl" : "https://jkozma78.github.io/conduit/104//#testresult/487313de15ec8f27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627142954886,
+          "stop" : 1627142957673,
+          "duration" : 2787
+        }
+      }, {
+        "uid" : "a12b59a83460c196",
+        "reportUrl" : "https://jkozma78.github.io/conduit/103//#testresult/a12b59a83460c196",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: no way of currently testing this",
+        "time" : {
+          "start" : 1627142669291,
+          "stop" : 1627142669291,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3464798370c856ad",
+        "reportUrl" : "https://jkozma78.github.io/conduit/102//#testresult/3464798370c856ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626954136442,
+          "stop" : 1626954139799,
+          "duration" : 3357
+        }
+      }, {
+        "uid" : "bba13d3881bfbdab",
+        "reportUrl" : "https://jkozma78.github.io/conduit/101//#testresult/bba13d3881bfbdab",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: no way of currently testing this",
+        "time" : {
+          "start" : 1626953737648,
+          "stop" : 1626953737648,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "447533acd3c384ad.json",
+  "parameterValues" : [ ]
+}
