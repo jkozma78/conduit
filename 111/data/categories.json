@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'master/python_tests/article.txt'",
+      "children" : [ {
+        "name" : "test_save_data",
+        "uid" : "f0c63d1a2d5ffdbe",
+        "parentUid" : "53a3fa17edd51cc19e243009652e4c23",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628100673113,
+          "stop" : 1628100674262,
+          "duration" : 1149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "53a3fa17edd51cc19e243009652e4c23"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_pagination",
+        "uid" : "1260fc3228b4c854",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628100684499,
+          "stop" : 1628100705595,
+          "duration" : 21096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
