@@ -1,5 +1,4 @@
 import time
-
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -24,12 +23,17 @@ locators = {"register": '//a[@href="#/register"]',  # sing up link
             "pages": '//a[@class="page-link"]',  # page number button
             "new": '//a[@href="#/editor"]',  # new article button
             "delete": '//button[@class="btn btn-outline-danger btn-sm"]',  # delete article button
-            "modal-text": '//div[@class="swal-title"]',  # modal text
+            "modal-text": '//div[@class="swal-title"]',  # message of modal text
             "rnduname": RandomData.uname(),  # random generated username
             "rndemail": RandomData.email(),  # random generated email
             "input_fields": ['(//input[@type="text"])[1]', '(//input[@ type="text"])[2]', '//textarea',
-                             '//input[@placeholder="Enter tags"]']
+                             '//input[@placeholder="Enter tags"]'],
             # new article input fields(title, about, article, tags)
+            "login-failed-text": "Login failed!",  # text if login failed
+            "spassword": "Jani1234",  # fix password to sing in or sign up
+            "act_page_text": '//li[@class="page-item active"]/a',  # activ page text
+            "edit_article_text": '//textarea[@class="form-control"]',  # new or edit article article text field
+            "article_links_to_save": "//a[contains(@href, 'article')]"  # articles link to sava data
             }
 
 
@@ -42,6 +46,7 @@ def browser():
     driver = webdriver.Chrome(options=options)
     driver.implicitly_wait(10)
     return driver
+
 
 # @pytest.fixture(scope='session')
 # def browser():
@@ -66,20 +71,20 @@ def test_login_with_empty_fields(browser):
     browser.get('http://localhost:1667/')
     find_locators(browser, "login").click()
     find_locators(browser, "okbutton").click()
-    assert wait_for_element(browser, '//div[@class="swal-title"]').text == "Login failed!"
+    assert wait_for_element(browser, locators["modal-text"]).text == locators["login-failed-text"]
 
 
 def test_register(browser):
-    """a user registration"""
+    """a user registration with valid data"""
     browser.get('http://localhost:1667/')
     find_locators(browser, "register").click()
     find_locators(browser, "username").send_keys(locators['rnduname'])
     find_locators(browser, "email").send_keys(locators["rndemail"])
-    find_locators(browser, "password").send_keys("Jani1234")
+    find_locators(browser, "password").send_keys(locators["spassword"])
     find_locators(browser, "okbutton").click()
     wait_for_element(browser, locators["modalbutton"]).click()
     usern = locators['rnduname']
-    assert browser.find_elements_by_xpath(f'//a[@href="#/@{usern}/"]')
+    assert browser.find_element_by_xpath(f'//a[@href="#/@{usern}/"]')
 
 
 def test_logout(browser):
@@ -92,7 +97,7 @@ def test_login(browser):
     browser.get('http://localhost:1667/')
     find_locators(browser, "login").click()
     find_locators(browser, "email").send_keys(locators["rndemail"])
-    find_locators(browser, "password").send_keys("Jani1234")
+    find_locators(browser, "password").send_keys(locators["spassword"])
     find_locators(browser, "okbutton").click()
     usern = locators['rnduname']
     assert wait_for_element(browser, f'//a[@href="#/@{usern}/"]')
@@ -100,51 +105,48 @@ def test_login(browser):
 
 # @pytest.mark.skip(reason="no way of currently testing this")
 def test_save_data(browser):
-    """Save data from articles"""
+    """Save data from articles from page n1"""
 
-    articles = browser.find_elements_by_xpath("//a[contains(@href, 'article')]")
+    articles = browser.find_elements_by_xpath(locators["article_links_to_save"])
     for i in range(0, len(articles)):
-        articles2 = browser.find_elements_by_xpath("//a[contains(@href, 'article')]")
-
+        articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
         with open("article.txt", "a") as articlefile:
-            tetx = browser.find_element_by_tag_name('h1').text
-            articlefile.write(f'{tetx} \n')
+            txt = browser.find_element_by_tag_name('h1').text
+            articlefile.write(f'{txt} \n')
         browser.back()
 
 
 def test_accept_cookies(browser):
     """accept cookies"""
-
     find_locators(browser, "accept").click()
     browser.refresh()
     try:
         find_locators(browser, "accept").click()
     except:
-        print('Adatkezelés elfogadva')
+        print('Adatkezelés sikeresen elfogadva!')
 
 
 def test_pagination(browser):
     """select last page and assert if it is 'page-item active' """
-
-    wait_for_element(browser, '//a[@class="page-link"]')
-    pages = browser.find_elements_by_xpath('//a[@class="page-link"]')
-    pages[-1].click()
-
-    assert int(browser.find_element_by_xpath('//li[@class="page-item active"]/a').get_property("text")) == len(pages)
+    wait_for_element(browser, locators["pages"])
+    allpages = browser.find_elements_by_xpath(locators["pages"])
+    allpages[-1].click()
+    assert int(browser.find_element_by_xpath(locators["act_page_text"]).get_property("text")) == len(allpages)
 
 
 def test_new_article(browser):
+    """create new article with random data used a modul RandomData"""
     find_locators(browser, "new").click()
-
     for i in locators["input_fields"]:
         browser.find_element_by_xpath(i).send_keys(RandomData.uname())
     find_locators(browser, "submit").click()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+# @pytest.mark.skip(reason="no way of currently testing this")
 def test_new_article_from_file(browser):
+    """add two new data from testdata.csv"""
     find_locators(browser, "new").click()
 
     with open("testdata.csv", "r") as csvfile:
@@ -161,11 +163,12 @@ def test_new_article_from_file(browser):
 
 
 def test_edit_article(browser):
+    """edit the last article"""
     find_locators(browser, 'edit').click()
-    wait_for_element(browser, '//textarea[@class="form-control"]')
-    browser.find_element_by_xpath('//textarea[@class="form-control"]').send_keys("másvalami")
+    wait_for_element(browser, locators["edit_article_text"]).send_keys("másvalami")
     find_locators(browser, 'submit').click()
 
 
 def test_delete_article(browser):
+    """delete the last and edited article"""
     find_locators(browser, 'delete').click()
