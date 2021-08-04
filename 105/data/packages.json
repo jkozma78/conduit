@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "python_tests.test_conduit",
+    "children" : [ {
+      "name" : "test_login_with_empty_fields",
+      "uid" : "5522e26cab6af87b",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093184574,
+        "stop" : 1628093187057,
+        "duration" : 2483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_register",
+      "uid" : "89f448ad65dfe355",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093187060,
+        "stop" : 1628093189830,
+        "duration" : 2770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_logout",
+      "uid" : "1a4c1fd0b16d4d4a",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093189832,
+        "stop" : 1628093190081,
+        "duration" : 249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login",
+      "uid" : "b25baa6fabd0f42c",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093190084,
+        "stop" : 1628093190985,
+        "duration" : 901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_save_data",
+      "uid" : "9d4e2932230a919",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093190987,
+        "stop" : 1628093203777,
+        "duration" : 12790
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_accept_cookies",
+      "uid" : "df8a669142fc53b3",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093203779,
+        "stop" : 1628093214034,
+        "duration" : 10255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_pagination",
+      "uid" : "cca8a9d928fb676a",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093214036,
+        "stop" : 1628093214140,
+        "duration" : 104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_new_article",
+      "uid" : "7c5aa8d32614741d",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093214142,
+        "stop" : 1628093214634,
+        "duration" : 492
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_new_article_from_file",
+      "uid" : "239749cf95034d51",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628093214636,
+        "stop" : 1628093214636,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_edit_article",
+      "uid" : "d53c59bb25a8f138",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093214644,
+        "stop" : 1628093215117,
+        "duration" : 473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_delete_article",
+      "uid" : "6ae2c65c16f6d063",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628093215125,
+        "stop" : 1628093215344,
+        "duration" : 219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "python_tests.test_conduit"
+  } ],
+  "name" : "packages"
+}
