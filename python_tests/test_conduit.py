@@ -151,8 +151,8 @@ def test_new_article(browser):
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
-    fp = Path('./')
-    with open(f'{fp}/testate.csv', "r") as csvfile:
+    fp = Path('python_tests/testate.csv')
+    with open(fp, "r") as csvfile:
         next(csvfile)
         for words in csvfile.readlines():
             split_words = words.split(',')
