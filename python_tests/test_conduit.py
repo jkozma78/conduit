@@ -147,7 +147,7 @@ def test_new_article(browser):
     find_locators(browser, "submit").click()
 
 
-#@pytest.mark.skip(reason="no way of currently testing this")
+@pytest.mark.skip(reason="it works only in github actions")
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
