@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 137,
+  "reportUrl" : "https://jkozma78.github.io/conduit/137/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 11,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 136,
   "reportUrl" : "https://jkozma78.github.io/conduit/136/",
   "reportName" : "Allure Report with history",
