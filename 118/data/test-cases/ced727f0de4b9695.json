@@ -1,0 +1,192 @@
+{
+  "uid" : "ced727f0de4b9695",
+  "name" : "test_edit_article",
+  "fullName" : "python_tests.test_conduit#test_edit_article",
+  "historyId" : "ea28859b624e352be688687925720b07",
+  "time" : {
+    "start" : 1628144262306,
+    "stop" : 1628144262785,
+    "duration" : 479
+  },
+  "description" : "edit the last article",
+  "descriptionHtml" : "<p>edit the last article</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628144225596,
+      "stop" : 1628144232208,
+      "duration" : 6612
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-166"
+  }, {
+    "name" : "thread",
+    "value" : "3642-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "b8c0a04b73143ea3",
+        "reportUrl" : "https://jkozma78.github.io/conduit/117//#testresult/b8c0a04b73143ea3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628143659271,
+          "stop" : 1628143660173,
+          "duration" : 902
+        }
+      }, {
+        "uid" : "79fd27af3429b689",
+        "reportUrl" : "https://jkozma78.github.io/conduit/116//#testresult/79fd27af3429b689",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628143335866,
+          "stop" : 1628143345926,
+          "duration" : 10060
+        }
+      }, {
+        "uid" : "3b9be803c4fc07c4",
+        "reportUrl" : "https://jkozma78.github.io/conduit/115//#testresult/3b9be803c4fc07c4",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628142828576,
+          "stop" : 1628142838623,
+          "duration" : 10047
+        }
+      }, {
+        "uid" : "48eba6671e46557d",
+        "reportUrl" : "https://jkozma78.github.io/conduit/113//#testresult/48eba6671e46557d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628101399729,
+          "stop" : 1628101400751,
+          "duration" : 1022
+        }
+      }, {
+        "uid" : "75059339e0af8c88",
+        "reportUrl" : "https://jkozma78.github.io/conduit/112//#testresult/75059339e0af8c88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628101170670,
+          "stop" : 1628101171530,
+          "duration" : 860
+        }
+      }, {
+        "uid" : "d8685f0eb2b7fedc",
+        "reportUrl" : "https://jkozma78.github.io/conduit/111//#testresult/d8685f0eb2b7fedc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100706052,
+          "stop" : 1628100706838,
+          "duration" : 786
+        }
+      }, {
+        "uid" : "f3c324ad5ca744a2",
+        "reportUrl" : "https://jkozma78.github.io/conduit/110//#testresult/f3c324ad5ca744a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100351883,
+          "stop" : 1628100352741,
+          "duration" : 858
+        }
+      }, {
+        "uid" : "8d7bb715c9f509fa",
+        "reportUrl" : "https://jkozma78.github.io/conduit/109//#testresult/8d7bb715c9f509fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628100088658,
+          "stop" : 1628100089638,
+          "duration" : 980
+        }
+      }, {
+        "uid" : "23164fa797375ed1",
+        "reportUrl" : "https://jkozma78.github.io/conduit/108//#testresult/23164fa797375ed1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628099328281,
+          "stop" : 1628099328696,
+          "duration" : 415
+        }
+      }, {
+        "uid" : "5ff81fa62a4af776",
+        "reportUrl" : "https://jkozma78.github.io/conduit/107//#testresult/5ff81fa62a4af776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628098866422,
+          "stop" : 1628098867420,
+          "duration" : 998
+        }
+      }, {
+        "uid" : "4f183f6881f00407",
+        "reportUrl" : "https://jkozma78.github.io/conduit/106//#testresult/4f183f6881f00407",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628098047062,
+          "stop" : 1628098057140,
+          "duration" : 10078
+        }
+      }, {
+        "uid" : "d53c59bb25a8f138",
+        "reportUrl" : "https://jkozma78.github.io/conduit/105//#testresult/d53c59bb25a8f138",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628093214644,
+          "stop" : 1628093215117,
+          "duration" : 473
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ced727f0de4b9695.json",
+  "parameterValues" : [ ]
+}
