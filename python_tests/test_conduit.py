@@ -113,8 +113,8 @@ def test_save_data(browser):
         articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
-        fp = Path("data/")
-        with open(f'{fp}article.txt', "a") as articlefile:
+
+        with open(Path("article.txt"), "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
@@ -147,12 +147,12 @@ def test_new_article(browser):
     find_locators(browser, "submit").click()
 
 
-@pytest.mark.skip(reason="no way of currently testing this")
+#@pytest.mark.skip(reason="no way of currently testing this")
 def test_new_article_from_file(browser):
     """add two new data from testdata.csv"""
     find_locators(browser, "new").click()
 
-    with open("testdata.csv", "r") as csvfile:
+    with open(Path("testdata.csv"), "r") as csvfile:
         next(csvfile)
         for words in csvfile.readlines():
             split_words = words.split(',')
