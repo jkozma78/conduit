@@ -46,7 +46,7 @@ jobs:
     
 
     - name: Test with pytest
-    - working-dir: ./
+      working-dir: ./
       run: |
         pytest --alluredir=allure-results
 
