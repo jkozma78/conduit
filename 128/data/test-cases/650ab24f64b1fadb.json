@@ -1,0 +1,106 @@
+{
+  "uid" : "650ab24f64b1fadb",
+  "name" : "test_new_article_from_file",
+  "fullName" : "python_tests.test_conduit#test_new_article_from_file",
+  "historyId" : "0db3c3ee951639779309160b0c53da39",
+  "time" : {
+    "start" : 1628159491789,
+    "stop" : 1628159491789,
+    "duration" : 0
+  },
+  "description" : "add two new data from testdata.csv",
+  "descriptionHtml" : "<p>add two new data from testdata.csv</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: no way of currently testing this",
+  "statusTrace" : "('/home/runner/work/conduit/conduit/python_tests/test_conduit.py', 149, 'Skipped: no way of currently testing this')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628159394150,
+      "stop" : 1628159399468,
+      "duration" : 5318
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='no way of currently testing this')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-274"
+  }, {
+    "name" : "thread",
+    "value" : "3751-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "c2c9887b05c8e57f",
+        "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/c2c9887b05c8e57f",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: no way of currently testing this",
+        "time" : {
+          "start" : 1628154590616,
+          "stop" : 1628154590616,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "df7aec3fdbae766d",
+        "reportUrl" : "https://jkozma78.github.io/conduit/126//#testresult/df7aec3fdbae766d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: no way of currently testing this",
+        "time" : {
+          "start" : 1628151575654,
+          "stop" : 1628151575654,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.skip(reason='no way of currently testing this')" ]
+  },
+  "source" : "650ab24f64b1fadb.json",
+  "parameterValues" : [ ]
+}
