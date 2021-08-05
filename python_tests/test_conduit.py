@@ -151,7 +151,7 @@ def test_new_article(browser):
 def test_new_article_from_file(browser):
     """add two new data from testdata.csv"""
     find_locators(browser, "new").click()
-
+    print(Path("testdata.csv"))
     with open(Path("testdata.csv"), "r") as csvfile:
         next(csvfile)
         for words in csvfile.readlines():
