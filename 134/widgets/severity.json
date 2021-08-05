@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3af00f36bd96d0ea",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628172762390,
+    "stop" : 1628172772608,
+    "duration" : 10218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "915123cae0b1cadd",
+  "name" : "test_login_with_empty_fields",
+  "time" : {
+    "start" : 1628172739408,
+    "stop" : 1628172745285,
+    "duration" : 5877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3af7fad59697a861",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1628172783526,
+    "stop" : 1628172793576,
+    "duration" : 10050
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "25a84ba62239de4e",
+  "name" : "test_new_article_from_file",
+  "time" : {
+    "start" : 1628172773147,
+    "stop" : 1628172773316,
+    "duration" : 169
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83e630a9ffe86b2e",
+  "name" : "test_new_article",
+  "time" : {
+    "start" : 1628172772702,
+    "stop" : 1628172773145,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46e3471ca23f2a79",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628172748577,
+    "stop" : 1628172749103,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "691e5087de90a147",
+  "name" : "test_edit_article",
+  "time" : {
+    "start" : 1628172773411,
+    "stop" : 1628172783487,
+    "duration" : 10076
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e9411b7da6182565",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628172772610,
+    "stop" : 1628172772700,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2d15bf40cb5368e",
+  "name" : "test_save_data",
+  "time" : {
+    "start" : 1628172749857,
+    "stop" : 1628172762388,
+    "duration" : 12531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72abd7a877f2bf2f",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628172749105,
+    "stop" : 1628172749855,
+    "duration" : 750
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b64127428dbcb54",
+  "name" : "test_register",
+  "time" : {
+    "start" : 1628172745288,
+    "stop" : 1628172748575,
+    "duration" : 3287
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
