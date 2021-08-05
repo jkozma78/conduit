@@ -1,5 +1,5 @@
 import time
-import os
+
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -107,13 +107,13 @@ def test_login(browser):
 # @pytest.mark.skip(reason="no way of currently testing this")
 def test_save_data(browser):
     """Save data from articles from page n1"""
-    print("dirpath:" + os.path.abspath(__file__))
+
     articles = browser.find_elements_by_xpath(locators["article_links_to_save"])
     for i in range(0, len(articles)):
         articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
-        with open("/home/runner/work/conduit/conduit/python_tests/article.txt", "a") as articlefile:
+        with open('./article.txt', "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
