@@ -1,0 +1,137 @@
+{
+  "uid" : "71a18d3b1277b078",
+  "name" : "test_register",
+  "fullName" : "python_tests.test_conduit#test_register",
+  "historyId" : "4bd8a7cbe9ae1f7a88d8798aaa3865ed",
+  "time" : {
+    "start" : 1628171266874,
+    "stop" : 1628171269424,
+    "duration" : 2550
+  },
+  "description" : "a user registration with valid data",
+  "descriptionHtml" : "<p>a user registration with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628171246657,
+      "stop" : 1628171264030,
+      "duration" : 17373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az36-633"
+  }, {
+    "name" : "thread",
+    "value" : "3671-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "606ec1a96b1ef70a",
+        "reportUrl" : "https://jkozma78.github.io/conduit/131//#testresult/606ec1a96b1ef70a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628169276801,
+          "stop" : 1628169279536,
+          "duration" : 2735
+        }
+      }, {
+        "uid" : "229ad1860ec16d8a",
+        "reportUrl" : "https://jkozma78.github.io/conduit/130//#testresult/229ad1860ec16d8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628167617832,
+          "stop" : 1628167620249,
+          "duration" : 2417
+        }
+      }, {
+        "uid" : "991cca28876f5bbe",
+        "reportUrl" : "https://jkozma78.github.io/conduit/129//#testresult/991cca28876f5bbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628166842172,
+          "stop" : 1628166844936,
+          "duration" : 2764
+        }
+      }, {
+        "uid" : "d8e0ad946bddaf75",
+        "reportUrl" : "https://jkozma78.github.io/conduit/128//#testresult/d8e0ad946bddaf75",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/register\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628159410218,
+          "stop" : 1628159420324,
+          "duration" : 10106
+        }
+      }, {
+        "uid" : "bb31aa9e28e60",
+        "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/bb31aa9e28e60",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/register\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628154509010,
+          "stop" : 1628154519106,
+          "duration" : 10096
+        }
+      }, {
+        "uid" : "c904d41ea2e26350",
+        "reportUrl" : "https://jkozma78.github.io/conduit/126//#testresult/c904d41ea2e26350",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628151548440,
+          "stop" : 1628151551061,
+          "duration" : 2621
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "71a18d3b1277b078.json",
+  "parameterValues" : [ ]
+}
