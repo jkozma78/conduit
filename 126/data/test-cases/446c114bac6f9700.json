@@ -1,0 +1,87 @@
+{
+  "uid" : "446c114bac6f9700",
+  "name" : "test_save_data",
+  "fullName" : "python_tests.test_conduit#test_save_data",
+  "historyId" : "ac780a901061afcfab8e64720c795e05",
+  "time" : {
+    "start" : 1628151552044,
+    "stop" : 1628151564691,
+    "duration" : 12647
+  },
+  "description" : "Save data from articles from page n1",
+  "descriptionHtml" : "<p>Save data from articles from page n1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628151545476,
+      "stop" : 1628151547274,
+      "duration" : 1798
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Save data from articles from page n1",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a1fefbbaf3fd7757",
+      "name" : "stdout",
+      "source" : "a1fefbbaf3fd7757.txt",
+      "type" : "text/plain",
+      "size" : 71
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-379"
+  }, {
+    "name" : "thread",
+    "value" : "3652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "446c114bac6f9700.json",
+  "parameterValues" : [ ]
+}

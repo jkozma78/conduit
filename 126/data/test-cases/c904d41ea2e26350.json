@@ -1,0 +1,70 @@
+{
+  "uid" : "c904d41ea2e26350",
+  "name" : "test_register",
+  "fullName" : "python_tests.test_conduit#test_register",
+  "historyId" : "4bd8a7cbe9ae1f7a88d8798aaa3865ed",
+  "time" : {
+    "start" : 1628151548440,
+    "stop" : 1628151551061,
+    "duration" : 2621
+  },
+  "description" : "a user registration with valid data",
+  "descriptionHtml" : "<p>a user registration with valid data</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628151545476,
+      "stop" : 1628151547274,
+      "duration" : 1798
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-379"
+  }, {
+    "name" : "thread",
+    "value" : "3652-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c904d41ea2e26350.json",
+  "parameterValues" : [ ]
+}
