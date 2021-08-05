@@ -34,7 +34,8 @@ locators = {"register": '//a[@href="#/register"]',  # sing up link
             "spassword": "Jani1234",  # fix password to sing in or sign up
             "act_page_text": '//li[@class="page-item active"]/a',  # activ page text
             "edit_article_text": '//textarea[@class="form-control"]',  # new or edit article article text field
-            "article_links_to_save": "//a[contains(@href, 'article')]"  # articles link to sava data
+            "article_links_to_save": "//a[contains(@href, 'article')]",  # articles link to sava data
+            "reg-failed-text": "Registration failed!", # text if registration failed
             }
 
 
@@ -73,6 +74,15 @@ def test_login_with_empty_fields(browser):
     find_locators(browser, "login").click()
     find_locators(browser, "okbutton").click()
     assert wait_for_element(browser, locators["modal-text"]).text == locators["login-failed-text"]
+
+
+def test_register_with_empty_fields(browser):
+    """a user registration with valid data"""
+    browser.get('http://localhost:1667/')
+    find_locators(browser, "register").click()
+    find_locators(browser, "okbutton").click()
+    wait_for_element(browser, locators["modalbutton"]).click()
+    assert wait_for_element(browser, locators["modal-text"]).text == locators["reg-failed-text"]
 
 
 def test_register(browser):
@@ -140,19 +150,19 @@ def test_pagination(browser):
 
 
 def test_new_article(browser):
-    """create new article with random data used a modul RandomData"""
+    """create new article with random data used by module RandomData"""
     find_locators(browser, "new").click()
     for i in locators["input_fields"]:
         browser.find_element_by_xpath(i).send_keys(RandomData.uname())
     find_locators(browser, "submit").click()
 
 
-@pytest.mark.skip(reason="it works only in github actions")
+#@pytest.mark.skip(reason="it works only in github actions")
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
-    fp = Path('python_tests/testate.csv')
-    with open(fp, "r") as csvfile:
+    filein = Path('python_tests/testate.csv')
+    with open(filein, "r") as csvfile:
         next(csvfile)
         for words in csvfile.readlines():
             split_words = words.split(',')
