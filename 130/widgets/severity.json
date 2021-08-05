@@ -1,0 +1,111 @@
+[ {
+  "uid" : "aca4bd8f225f1644",
+  "name" : "test_pagination",
+  "time" : {
+    "start" : 1628167644103,
+    "stop" : 1628167644199,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6f0c3cd6b6c87a9",
+  "name" : "test_accept_cookies",
+  "time" : {
+    "start" : 1628167633902,
+    "stop" : 1628167644101,
+    "duration" : 10199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2a1bff09b01c48f",
+  "name" : "test_new_article_from_file",
+  "time" : {
+    "start" : 1628167644667,
+    "stop" : 1628167644667,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "229ad1860ec16d8a",
+  "name" : "test_register",
+  "time" : {
+    "start" : 1628167617832,
+    "stop" : 1628167620249,
+    "duration" : 2417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfaa3c0373a984a4",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1628167620391,
+    "stop" : 1628167621189,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3fe4adc32d3a36",
+  "name" : "test_save_data",
+  "time" : {
+    "start" : 1628167621191,
+    "stop" : 1628167633899,
+    "duration" : 12708
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fbfe4f687f0730a",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1628167620251,
+    "stop" : 1628167620389,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff0fe84041c8b94b",
+  "name" : "test_new_article",
+  "time" : {
+    "start" : 1628167644202,
+    "stop" : 1628167644665,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90a8a9c1ea23fd57",
+  "name" : "test_delete_article",
+  "time" : {
+    "start" : 1628167645124,
+    "stop" : 1628167645335,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71d55ef4d00c60bf",
+  "name" : "test_login_with_empty_fields",
+  "time" : {
+    "start" : 1628167617107,
+    "stop" : 1628167617830,
+    "duration" : 723
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7743ab546b659c5",
+  "name" : "test_edit_article",
+  "time" : {
+    "start" : 1628167644672,
+    "stop" : 1628167645122,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
