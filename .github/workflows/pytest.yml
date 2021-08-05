@@ -18,7 +18,7 @@ jobs:
     - run: docker-compose up -d
 
     - name: Sleep for 45 seconds
-      run: sleep 45s
+      run: sleep 75s
       shell: bash
 
     - name: Set up Python 
