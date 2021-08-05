@@ -116,6 +116,7 @@ def test_save_data(browser):
         with open("/home/runner/work/conduit/conduit/python_tests/article.txt", "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
+        articlefile.close()
         browser.back()
 
 
