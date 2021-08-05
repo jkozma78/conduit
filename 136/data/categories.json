@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: './testate.csv'",
+      "children" : [ {
+        "name" : "test_new_article_from_file",
+        "uid" : "d4fa918f987827e7",
+        "parentUid" : "48630ffe5febd87641222f89fbd33f04",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628174442881,
+          "stop" : 1628174443014,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "48630ffe5febd87641222f89fbd33f04"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_edit_article",
+        "uid" : "7052a73016fd532a",
+        "parentUid" : "5eabcd0d24ce7c019c905e313f1271c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628174443131,
+          "stop" : 1628174453238,
+          "duration" : 10107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eabcd0d24ce7c019c905e313f1271c0"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"btn btn-outline-danger btn-sm\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_delete_article",
+        "uid" : "14ae4af97b78084f",
+        "parentUid" : "fd2d31e227674e1e8ae7e4ac5a83c979",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628174453281,
+          "stop" : 1628174463294,
+          "duration" : 10013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd2d31e227674e1e8ae7e4ac5a83c979"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
