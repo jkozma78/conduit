@@ -1,0 +1,110 @@
+{
+  "uid" : "97320c6a440073",
+  "name" : "test_logout",
+  "fullName" : "python_tests.test_conduit#test_logout",
+  "historyId" : "41944a756c3b4dd9ed484e91f4668bec",
+  "time" : {
+    "start" : 1628166844939,
+    "stop" : 1628166845163,
+    "duration" : 224
+  },
+  "description" : "logout after successful registration",
+  "descriptionHtml" : "<p>logout after successful registration</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628166839391,
+      "stop" : 1628166841109,
+      "duration" : 1718
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-652"
+  }, {
+    "name" : "thread",
+    "value" : "3647-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c14a797daf59bf5e",
+        "reportUrl" : "https://jkozma78.github.io/conduit/128//#testresult/c14a797daf59bf5e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@active-class=\"active\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628159420366,
+          "stop" : 1628159430413,
+          "duration" : 10047
+        }
+      }, {
+        "uid" : "baa4d2f028aacd2b",
+        "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/baa4d2f028aacd2b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@active-class=\"active\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628154519155,
+          "stop" : 1628154529178,
+          "duration" : 10023
+        }
+      }, {
+        "uid" : "307f107d80a167cf",
+        "reportUrl" : "https://jkozma78.github.io/conduit/126//#testresult/307f107d80a167cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628151551063,
+          "stop" : 1628151551217,
+          "duration" : 154
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "97320c6a440073.json",
+  "parameterValues" : [ ]
+}
