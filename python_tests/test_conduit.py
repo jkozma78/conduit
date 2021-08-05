@@ -149,10 +149,10 @@ def test_new_article(browser):
 
 #@pytest.mark.skip(reason="no way of currently testing this")
 def test_new_article_from_file(browser):
-    """add two new data from testdata.csv"""
+    """add two new data from testate.csv"""
     find_locators(browser, "new").click()
-    print(Path("./testdata.csv"))
-    with open(Path("./testdata.csv"), "r") as csvfile:
+    fp = Path('./')
+    with open(f'{fp}/testate.csv', "r") as csvfile:
         next(csvfile)
         for words in csvfile.readlines():
             split_words = words.split(',')
