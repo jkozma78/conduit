@@ -43,6 +43,7 @@ jobs:
         seleniumbase install chromedriver    
 
     - name: Test with pytest
+      uses: actions/checkout@v2
       run: |
         pytest --alluredir=allure-results
 
