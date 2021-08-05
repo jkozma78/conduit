@@ -1,5 +1,5 @@
 import time
-
+from pathlib import Path
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
@@ -113,7 +113,8 @@ def test_save_data(browser):
         articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
-        with open('./article.txt', "a") as articlefile:
+        fp = Path("data/")
+        with open(f'{fp}article.txt', "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
