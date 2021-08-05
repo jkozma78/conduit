@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'testdata.csv'",
+      "children" : [ {
+        "name" : "test_new_article_from_file",
+        "uid" : "d7a683ac7e18c153",
+        "parentUid" : "5e960e5fdced4ce43e15733ca778c2a1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628171928314,
+          "stop" : 1628171928440,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e960e5fdced4ce43e15733ca778c2a1"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_edit_article",
+        "uid" : "595e7eccb02a1e6",
+        "parentUid" : "5eabcd0d24ce7c019c905e313f1271c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628171928539,
+          "stop" : 1628171938627,
+          "duration" : 10088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5eabcd0d24ce7c019c905e313f1271c0"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"btn btn-outline-danger btn-sm\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_delete_article",
+        "uid" : "442c530ccf1922e8",
+        "parentUid" : "fd2d31e227674e1e8ae7e4ac5a83c979",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628171938666,
+          "stop" : 1628171948693,
+          "duration" : 10027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd2d31e227674e1e8ae7e4ac5a83c979"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
