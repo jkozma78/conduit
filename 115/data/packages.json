@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "python_tests.test_conduit",
+    "children" : [ {
+      "name" : "test_login_with_empty_fields",
+      "uid" : "6e61d25bb2a0d8d1",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142736579,
+        "stop" : 1628142746909,
+        "duration" : 10330
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_register",
+      "uid" : "993d20914ff2b991",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142746997,
+        "stop" : 1628142757087,
+        "duration" : 10090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_logout",
+      "uid" : "135fa7740ecd992e",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142757126,
+        "stop" : 1628142767143,
+        "duration" : 10017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login",
+      "uid" : "3a99e438d5c9d190",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142767184,
+        "stop" : 1628142777262,
+        "duration" : 10078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_save_data",
+      "uid" : "9537dd52688feba6",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628142777301,
+        "stop" : 1628142787334,
+        "duration" : 10033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_accept_cookies",
+      "uid" : "1c1716ef5bb27095",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142787336,
+        "stop" : 1628142797344,
+        "duration" : 10008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_pagination",
+      "uid" : "c5cf0cb3c85e61b7",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142797388,
+        "stop" : 1628142818483,
+        "duration" : 21095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_new_article",
+      "uid" : "b14268de35129a7f",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142818494,
+        "stop" : 1628142828533,
+        "duration" : 10039
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_new_article_from_file",
+      "uid" : "89b13bd6f04b2ccb",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1628142828573,
+        "stop" : 1628142828573,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_edit_article",
+      "uid" : "3b9be803c4fc07c4",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142828576,
+        "stop" : 1628142838623,
+        "duration" : 10047
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_delete_article",
+      "uid" : "80f9c7ca855c4c54",
+      "parentUid" : "5bd87e4004615820dd370c4ca026b3d8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628142838663,
+        "stop" : 1628142848698,
+        "duration" : 10035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "python_tests.test_conduit"
+  } ],
+  "name" : "packages"
+}
