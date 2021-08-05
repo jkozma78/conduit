@@ -43,15 +43,10 @@ jobs:
         seleniumbase install chromedriver    
     
     
-    - name: Reads Root Directory 
-      uses: ./ # Uses an action in the root directory 
-      env: 
-        GITHUB_TOKEN: ${{ secrets.TOKEN }} 
-      id: dir 
-      with: 
-        directory: "./"  
+    
 
     - name: Test with pytest
+    - working-dir: ./
       run: |
         pytest --alluredir=allure-results
 
