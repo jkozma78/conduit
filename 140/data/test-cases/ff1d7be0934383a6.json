@@ -1,0 +1,70 @@
+{
+  "uid" : "ff1d7be0934383a6",
+  "name" : "test_new_article_with_empty_fields",
+  "fullName" : "python_tests.test_conduit#test_new_article_with_empty_fields",
+  "historyId" : "6b53443686f9d77a3b676953f6b29755",
+  "time" : {
+    "start" : 1628332820289,
+    "stop" : 1628332826422,
+    "duration" : 6133
+  },
+  "description" : "create new article with random data used by module RandomData",
+  "descriptionHtml" : "<p>create new article with random data used by module RandomData</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628332742804,
+      "stop" : 1628332744866,
+      "duration" : 2062
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-504"
+  }, {
+    "name" : "thread",
+    "value" : "3642-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff1d7be0934383a6.json",
+  "parameterValues" : [ ]
+}
