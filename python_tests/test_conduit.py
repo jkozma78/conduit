@@ -35,7 +35,8 @@ locators = {"register": '//a[@href="#/register"]',  # sing up link
             "act_page_text": '//li[@class="page-item active"]/a',  # activ page text
             "edit_article_text": '//textarea[@class="form-control"]',  # new or edit article article text field
             "article_links_to_save": "//a[contains(@href, 'article')]",  # articles link to sava data
-            "reg-failed-text": "Registration failed!", # text if registration failed
+            "reg-failed-text": "Registration failed!",  # text if registration failed
+            "oops-text": "Oops!"
             }
 
 
@@ -77,7 +78,7 @@ def test_login_with_empty_fields(browser):
 
 
 def test_register_with_empty_fields(browser):
-    """a user registration with valid data"""
+    """a user registration with empty fields"""
     browser.get('http://localhost:1667/')
     find_locators(browser, "register").click()
     find_locators(browser, "okbutton").click()
@@ -155,6 +156,7 @@ def test_new_article(browser):
     for i in locators["input_fields"]:
         browser.find_element_by_xpath(i).send_keys(RandomData.uname())
     find_locators(browser, "submit").click()
+    time.sleep(5)
 
 
 #@pytest.mark.skip(reason="it works only in github actions")
@@ -185,3 +187,14 @@ def test_edit_article(browser):
 def test_delete_article(browser):
     """delete the last and edited article"""
     find_locators(browser, 'delete').click()
+
+
+def test_new_article_with_empty_fields(browser):
+    """create new article with random data used by module RandomData"""
+    time.sleep(2)
+    find_locators(browser, "new").click()
+    time.sleep(2)
+    find_locators(browser, "submit").click()
+    time.sleep(2)
+    assert wait_for_element(browser, locators["modal-text"]).text == locators["oops-text"]
+
