@@ -189,7 +189,7 @@ def test_delete_article(browser):
 
 
 def test_new_article_with_empty_fields(browser):
-    """create new article with random data used by module RandomData"""
+    """try to add new article with empty fields"""
 
     find_locators(browser, "new").click()
     find_locators(browser, "submit").click()
