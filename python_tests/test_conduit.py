@@ -36,7 +36,7 @@ locators = {"register": '//a[@href="#/register"]',  # sing up link
             "edit_article_text": '//textarea[@class="form-control"]',  # new or edit article article text field
             "article_links_to_save": "//a[contains(@href, 'article')]",  # articles link to sava data
             "reg-failed-text": "Registration failed!",  # text if registration failed
-            "oops-text": "Oops!", # text if login failed with empty fields
+            "oops-text": "Oops!",  # text if login failed with empty fields
 
             }
 
@@ -92,7 +92,7 @@ def test_register(browser):
     find_locators(browser, "password").send_keys(locators["spassword"])
     find_locators(browser, "okbutton").click()
     find_locators(browser, "modalbutton").click()
-    usern = locators['rnduname'] #az ellenőrizendő felhasználónév egy külön változóba kivéve
+    usern = locators['rnduname']  # az ellenőrizendő felhasználónév egy külön változóba kivéve
     assert browser.find_element_by_xpath(f'//a[@href="#/@{usern}/"]')
 
 
@@ -108,8 +108,8 @@ def test_login(browser):
     find_locators(browser, "email").send_keys(locators["rndemail"])
     find_locators(browser, "password").send_keys(locators["spassword"])
     find_locators(browser, "okbutton").click()
-    usern = locators['rnduname'] # az előzőekben regisztrált felhasználó kivétele egy átmeneti változóba
-    #assert find_locators(browser, f'//a[@href="#/@{usern}/"]')
+    usern = locators['rnduname']  # az előzőekben regisztrált felhasználó kivétele egy átmeneti változóba
+    # assert find_locators(browser, f'//a[@href="#/@{usern}/"]')
 
 
 # @pytest.mark.skip(reason="no way of currently testing this")
@@ -122,7 +122,7 @@ def test_save_data(browser):
         articles2[i].click()
         time.sleep(1)
 
-        with open(Path("article.txt"), "w") as articlefile:
+        with open(Path("article.txt"), "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
@@ -157,7 +157,6 @@ def test_new_article(browser):
     find_locators(browser, "submit").click()
 
 
-
 #@pytest.mark.skip(reason="it works only in github actions")
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
@@ -169,8 +168,8 @@ def test_new_article_from_file(browser):
         for words in csvfile.readlines():
             split_words = words.split(',')
             find_locators(browser, "new").click()
+
             for i in range(len(locators["input_fields"])):
-                #time.sleep(5)
                 browser.find_element_by_xpath(locators["input_fields"][i]).clear()
                 browser.find_element_by_xpath(locators["input_fields"][i]).send_keys(split_words[i])
             find_locators(browser, "submit").click()
@@ -191,9 +190,7 @@ def test_delete_article(browser):
 
 def test_new_article_with_empty_fields(browser):
     """create new article with random data used by module RandomData"""
-    #time.sleep(2)
+
     find_locators(browser, "new").click()
-    #time.sleep(2)
     find_locators(browser, "submit").click()
-    #time.sleep(2)
     assert find_locators(browser, "modal-text").text == locators["oops-text"]
