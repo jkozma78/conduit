@@ -1,0 +1,90 @@
+{
+  "uid" : "426077d927f8c117",
+  "name" : "test_new_article_with_empty_fields",
+  "fullName" : "python_tests.test_conduit#test_new_article_with_empty_fields",
+  "historyId" : "6b53443686f9d77a3b676953f6b29755",
+  "time" : {
+    "start" : 1628412874724,
+    "stop" : 1628412876680,
+    "duration" : 1956
+  },
+  "description" : "create new article with random data used by module RandomData",
+  "descriptionHtml" : "<p>create new article with random data used by module RandomData</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628412824852,
+      "stop" : 1628412831965,
+      "duration" : 7113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-740"
+  }, {
+    "name" : "thread",
+    "value" : "3642-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ff1d7be0934383a6",
+        "reportUrl" : "https://jkozma78.github.io/conduit/140//#testresult/ff1d7be0934383a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628332820289,
+          "stop" : 1628332826422,
+          "duration" : 6133
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "426077d927f8c117.json",
+  "parameterValues" : [ ]
+}
