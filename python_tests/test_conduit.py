@@ -112,7 +112,7 @@ def test_login(browser):
     # assert find_locators(browser, f'//a[@href="#/@{usern}/"]')
 
 
-# @pytest.mark.skip(reason="no way of currently testing this")
+@pytest.mark.skip(reason="no way of currently testing this")
 def test_save_data(browser):
     """Save data from articles from page n1"""
     # több adat kinyerése miatt itt nem lehet a find_locators függvényt használni
@@ -158,11 +158,11 @@ def test_new_article(browser):
     find_locators(browser, "submit").click()
 
 
-#@pytest.mark.skip(reason="it works only in github actions")
+@pytest.mark.skip(reason="it works only in github actions")
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
-    filein = Path('python_tests/testate.csv')
+    filein = Path('./testate.csv')
 
     with open(filein, "r") as csvfile:
         next(csvfile)
