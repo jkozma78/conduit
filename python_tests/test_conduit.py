@@ -122,7 +122,7 @@ def test_save_data(browser):
         articles2[i].click()
         time.sleep(1)
 
-        with open(Path("article.txt"), "a") as articlefile:
+        with open(Path("article.txt"), "w") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
@@ -158,7 +158,7 @@ def test_new_article(browser):
 
 
 
-@pytest.mark.skip(reason="it works only in github actions")
+#@pytest.mark.skip(reason="it works only in github actions")
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
