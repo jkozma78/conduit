@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'testate.csv'",
+      "children" : [ {
+        "name" : "test_new_article_from_file",
+        "uid" : "39ae53ce5d44dc60",
+        "parentUid" : "6bcc04d05c0c54e9ba84b681ad4adfcb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628417677102,
+          "stop" : 1628417677261,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bcc04d05c0c54e9ba84b681ad4adfcb"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_edit_article",
+        "uid" : "945ed33fdda1a7b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628417677331,
+          "stop" : 1628417698487,
+          "duration" : 21156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_article",
+        "uid" : "fe19c557ba716fab",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628417698501,
+          "stop" : 1628417719540,
+          "duration" : 21039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
