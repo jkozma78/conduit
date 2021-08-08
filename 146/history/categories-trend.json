@@ -2,6 +2,11 @@
   "buildOrder" : 146,
   "reportUrl" : "https://jkozma78.github.io/conduit/146/",
   "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
+  "buildOrder" : 146,
+  "reportUrl" : "https://jkozma78.github.io/conduit/146/",
+  "reportName" : "Allure Report with history",
   "data" : {
     "Test defects" : 1
   }
@@ -103,11 +108,6 @@
 }, {
   "buildOrder" : 130,
   "reportUrl" : "https://jkozma78.github.io/conduit/130/",
-  "reportName" : "Allure Report with history",
-  "data" : { }
-}, {
-  "buildOrder" : 129,
-  "reportUrl" : "https://jkozma78.github.io/conduit/129/",
   "reportName" : "Allure Report with history",
   "data" : { }
 } ]

@@ -3,6 +3,13 @@
   "reportUrl" : "https://jkozma78.github.io/conduit/146/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 43873
+  }
+}, {
+  "buildOrder" : 146,
+  "reportUrl" : "https://jkozma78.github.io/conduit/146/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 48589
   }
 }, {
@@ -130,12 +137,5 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "duration" : 28228
-  }
-}, {
-  "buildOrder" : 129,
-  "reportUrl" : "https://jkozma78.github.io/conduit/129/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 29380
   }
 } ]

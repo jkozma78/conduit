@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 146,
+  "reportUrl" : "https://jkozma78.github.io/conduit/146/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 13,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 145,
   "reportUrl" : "https://jkozma78.github.io/conduit/145/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 130,
   "reportUrl" : "https://jkozma78.github.io/conduit/130/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 11,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 129,
-  "reportUrl" : "https://jkozma78.github.io/conduit/129/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 11,

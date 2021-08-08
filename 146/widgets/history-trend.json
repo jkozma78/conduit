@@ -4,6 +4,18 @@
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 13,
+    "unknown" : 0,
+    "total" : 13
+  }
+}, {
+  "buildOrder" : 146,
+  "reportUrl" : "https://jkozma78.github.io/conduit/146/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
     "broken" : 1,
     "skipped" : 0,
     "passed" : 12,
@@ -217,18 +229,6 @@
 }, {
   "buildOrder" : 130,
   "reportUrl" : "https://jkozma78.github.io/conduit/130/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 1,
-    "passed" : 10,
-    "unknown" : 0,
-    "total" : 11
-  }
-}, {
-  "buildOrder" : 129,
-  "reportUrl" : "https://jkozma78.github.io/conduit/129/",
   "reportName" : "Allure Report with history",
   "data" : {
     "failed" : 0,
