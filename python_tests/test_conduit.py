@@ -117,12 +117,13 @@ def test_save_data(browser):
     """Save data from articles from page n1"""
     # több adat kinyerése miatt itt nem lehet a find_locators függvényt használni
     articles = browser.find_elements_by_xpath(locators["article_links_to_save"])
+    fileout = Path('article.txt')
     for i in range(0, len(articles)):
         articles2 = browser.find_elements_by_xpath(locators["article_links_to_save"])
         articles2[i].click()
         time.sleep(1)
 
-        with open(Path("article.txt"), "a") as articlefile:
+        with open(fileout, "a") as articlefile:
             txt = browser.find_element_by_tag_name('h1').text
             articlefile.write(f'{txt} \n')
         articlefile.close()
