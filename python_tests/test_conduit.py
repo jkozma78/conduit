@@ -162,7 +162,7 @@ def test_new_article(browser):
 def test_new_article_from_file(browser):
     """add two new data from testate.csv"""
     find_locators(browser, "new").click()
-    filein = Path('./testate.csv')
+    filein = Path('python_tests/testate.csv')
 
     with open(filein, "r") as csvfile:
         next(csvfile)
