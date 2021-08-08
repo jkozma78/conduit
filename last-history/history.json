@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 7
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "93c5c6ad83bfa654",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/93c5c6ad83bfa654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415677539,
+        "stop" : 1628415678409,
+        "duration" : 870
+      }
+    }, {
       "uid" : "47db68f0e7a5558b",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/47db68f0e7a5558b",
       "status" : "passed",
@@ -78,11 +87,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "818f8005aa819bed",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/818f8005aa819bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415715676,
+        "stop" : 1628415716092,
+        "duration" : 416
+      }
+    }, {
       "uid" : "6d22834a9611802f",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/6d22834a9611802f",
       "status" : "passed",
@@ -254,16 +272,6 @@
         "stop" : 1628159491743,
         "duration" : 10020
       }
-    }, {
-      "uid" : "b1ec1b862f530f3d",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/b1ec1b862f530f3d",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/editor\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154580552,
-        "stop" : 1628154590579,
-        "duration" : 10027
-      }
     } ]
   },
   "41944a756c3b4dd9ed484e91f4668bec" : {
@@ -271,11 +279,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "5350dd24e2a9a09a",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/5350dd24e2a9a09a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415680822,
+        "stop" : 1628415681022,
+        "duration" : 200
+      }
+    }, {
       "uid" : "ade87b32ab8fa096",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/ade87b32ab8fa096",
       "status" : "passed",
@@ -447,16 +464,6 @@
         "stop" : 1628159430413,
         "duration" : 10047
       }
-    }, {
-      "uid" : "baa4d2f028aacd2b",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/baa4d2f028aacd2b",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@active-class=\"active\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154519155,
-        "stop" : 1628154529178,
-        "duration" : 10023
-      }
     } ]
   },
   "12869d54d0f3ce55c2959fb2928a17b0" : {
@@ -464,11 +471,20 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "8d1b2780b0b329c9",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/8d1b2780b0b329c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415717862,
+        "stop" : 1628415718058,
+        "duration" : 196
+      }
+    }, {
       "uid" : "a44f5d2616545528",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/a44f5d2616545528",
       "status" : "passed",
@@ -645,16 +661,6 @@
         "stop" : 1628159511889,
         "duration" : 10022
       }
-    }, {
-      "uid" : "18c410a451a5f14a",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/18c410a451a5f14a",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"btn btn-outline-danger btn-sm\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154600693,
-        "stop" : 1628154610699,
-        "duration" : 10006
-      }
     } ]
   },
   "532b9e2dfc4cebe6a98496e9dbd599c5" : {
@@ -662,11 +668,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "4fdbfcfa6ac7a381",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/4fdbfcfa6ac7a381",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415715569,
+        "stop" : 1628415715674,
+        "duration" : 105
+      }
+    }, {
       "uid" : "b9e0ad3faba4631e",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/b9e0ad3faba4631e",
       "status" : "passed",
@@ -838,16 +853,6 @@
         "stop" : 1628159481711,
         "duration" : 21073
       }
-    }, {
-      "uid" : "e83044b97997a1ad",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/e83044b97997a1ad",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1628154559458,
-        "stop" : 1628154580542,
-        "duration" : 21084
-      }
     } ]
   },
   "ea28859b624e352be688687925720b07" : {
@@ -855,11 +860,20 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "6170b1b48613de6a",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/6170b1b48613de6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415717463,
+        "stop" : 1628415717859,
+        "duration" : 396
+      }
+    }, {
       "uid" : "6475097d96edd45",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/6475097d96edd45",
       "status" : "passed",
@@ -1036,16 +1050,6 @@
         "stop" : 1628159501826,
         "duration" : 10035
       }
-    }, {
-      "uid" : "c9be4bebb86fdc2f",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/c9be4bebb86fdc2f",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@class=\"btn btn-sm btn-outline-secondary\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154590618,
-        "stop" : 1628154600654,
-        "duration" : 10036
-      }
     } ]
   },
   "2d27b883ab163515eca2f4f32a9e9234" : {
@@ -1053,11 +1057,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "c2b745e2d907f5a3",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/c2b745e2d907f5a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415681024,
+        "stop" : 1628415681354,
+        "duration" : 330
+      }
+    }, {
       "uid" : "85ab23c833ddfb49",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/85ab23c833ddfb49",
       "status" : "passed",
@@ -1229,16 +1242,6 @@
         "stop" : 1628159440509,
         "duration" : 10055
       }
-    }, {
-      "uid" : "b971c091b7c77cf1",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/b971c091b7c77cf1",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/login\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154529218,
-        "stop" : 1628154539319,
-        "duration" : 10101
-      }
     } ]
   },
   "6b53443686f9d77a3b676953f6b29755" : {
@@ -1246,11 +1249,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "fa9c96fc673ac696",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/fa9c96fc673ac696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415718060,
+        "stop" : 1628415719378,
+        "duration" : 1318
+      }
+    }, {
       "uid" : "164fc29cf4b66773",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/164fc29cf4b66773",
       "status" : "passed",
@@ -1311,11 +1323,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 8,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "6ef5f2bfce769716",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/6ef5f2bfce769716",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415716094,
+        "stop" : 1628415717461,
+        "duration" : 1367
+      }
+    }, {
       "uid" : "f3ffd420e9f623de",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/f3ffd420e9f623de",
       "status" : "passed",
@@ -1497,16 +1518,6 @@
         "stop" : 1628159491789,
         "duration" : 0
       }
-    }, {
-      "uid" : "c2c9887b05c8e57f",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/c2c9887b05c8e57f",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: no way of currently testing this",
-      "time" : {
-        "start" : 1628154590616,
-        "stop" : 1628154590616,
-        "duration" : 0
-      }
     } ]
   },
   "4bd8a7cbe9ae1f7a88d8798aaa3865ed" : {
@@ -1514,11 +1525,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "f85059440ca2ce73",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/f85059440ca2ce73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415678411,
+        "stop" : 1628415680820,
+        "duration" : 2409
+      }
+    }, {
       "uid" : "2ab3559136c204a4",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/2ab3559136c204a4",
       "status" : "passed",
@@ -1690,16 +1710,6 @@
         "stop" : 1628159420324,
         "duration" : 10106
       }
-    }, {
-      "uid" : "bb31aa9e28e60",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/bb31aa9e28e60",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/register\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154509010,
-        "stop" : 1628154519106,
-        "duration" : 10096
-      }
     } ]
   },
   "bdbe73e7074e722994da50b61d663a24" : {
@@ -1707,11 +1717,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "ac8aae336d9effdb",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/ac8aae336d9effdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415675982,
+        "stop" : 1628415677536,
+        "duration" : 1554
+      }
+    }, {
       "uid" : "99e9fef1763a2880",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/99e9fef1763a2880",
       "status" : "passed",
@@ -1883,16 +1902,6 @@
         "stop" : 1628159410125,
         "duration" : 10649
       }
-    }, {
-      "uid" : "566e21a9106ac787",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/566e21a9106ac787",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href=\"#/login\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154498533,
-        "stop" : 1628154508920,
-        "duration" : 10387
-      }
     } ]
   },
   "b92ef54bbb5799d5ce986146bbd0f476" : {
@@ -1900,11 +1909,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "fbbd432cdaaba5ce",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/fbbd432cdaaba5ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415694289,
+        "stop" : 1628415715567,
+        "duration" : 21278
+      }
+    }, {
       "uid" : "c2e15249e95baf52",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/c2e15249e95baf52",
       "status" : "passed",
@@ -2076,16 +2094,6 @@
         "stop" : 1628159460600,
         "duration" : 10035
       }
-    }, {
-      "uid" : "d9b0d3e840723248",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/d9b0d3e840723248",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"cookie__bar__buttons__button cookie__bar__buttons__button--accept\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
-      "time" : {
-        "start" : 1628154549394,
-        "stop" : 1628154559425,
-        "duration" : 10031
-      }
     } ]
   },
   "ac780a901061afcfab8e64720c795e05" : {
@@ -2093,11 +2101,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 22,
       "unknown" : 0,
-      "total" : 21
+      "total" : 22
     },
     "items" : [ {
+      "uid" : "78e683b2acd78779",
+      "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/78e683b2acd78779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628415681356,
+        "stop" : 1628415694284,
+        "duration" : 12928
+      }
+    }, {
       "uid" : "4aa5674fc7929435",
       "reportUrl" : "https://jkozma78.github.io/conduit/145//#testresult/4aa5674fc7929435",
       "status" : "passed",
@@ -2267,15 +2284,6 @@
         "start" : 1628159440550,
         "stop" : 1628159450563,
         "duration" : 10013
-      }
-    }, {
-      "uid" : "3790aade893646b4",
-      "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/3790aade893646b4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628154539363,
-        "stop" : 1628154549392,
-        "duration" : 10029
       }
     } ]
   }
