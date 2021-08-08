@@ -1,0 +1,280 @@
+{
+  "uid" : "c2e15249e95baf52",
+  "name" : "test_accept_cookies",
+  "fullName" : "python_tests.test_conduit#test_accept_cookies",
+  "historyId" : "b92ef54bbb5799d5ce986146bbd0f476",
+  "time" : {
+    "start" : 1628415439904,
+    "stop" : 1628415461208,
+    "duration" : 21304
+  },
+  "description" : "accept cookies",
+  "descriptionHtml" : "<p>accept cookies</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1628415413794,
+      "stop" : 1628415420885,
+      "duration" : 7091
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "accept cookies",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58d56539e034aefc",
+      "name" : "stdout",
+      "source" : "58d56539e034aefc.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "python_tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_conduit"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "3701-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "python_tests.test_conduit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "503122acce8c5098",
+        "reportUrl" : "https://jkozma78.github.io/conduit/144//#testresult/503122acce8c5098",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628414729808,
+          "stop" : 1628414751076,
+          "duration" : 21268
+        }
+      }, {
+        "uid" : "57285fb613fabb2b",
+        "reportUrl" : "https://jkozma78.github.io/conduit/143//#testresult/57285fb613fabb2b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628414240787,
+          "stop" : 1628414262071,
+          "duration" : 21284
+        }
+      }, {
+        "uid" : "6b74a1970b3f3285",
+        "reportUrl" : "https://jkozma78.github.io/conduit/142//#testresult/6b74a1970b3f3285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628413263386,
+          "stop" : 1628413284660,
+          "duration" : 21274
+        }
+      }, {
+        "uid" : "71706ca20265f031",
+        "reportUrl" : "https://jkozma78.github.io/conduit/141//#testresult/71706ca20265f031",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628412851982,
+          "stop" : 1628412873291,
+          "duration" : 21309
+        }
+      }, {
+        "uid" : "a25682d607a6aa59",
+        "reportUrl" : "https://jkozma78.github.io/conduit/140//#testresult/a25682d607a6aa59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628332762739,
+          "stop" : 1628332773040,
+          "duration" : 10301
+        }
+      }, {
+        "uid" : "b0f29ddc28beb968",
+        "reportUrl" : "https://jkozma78.github.io/conduit/139//#testresult/b0f29ddc28beb968",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628179503437,
+          "stop" : 1628179513706,
+          "duration" : 10269
+        }
+      }, {
+        "uid" : "ca397639f0d103f",
+        "reportUrl" : "https://jkozma78.github.io/conduit/138//#testresult/ca397639f0d103f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628176318127,
+          "stop" : 1628176328459,
+          "duration" : 10332
+        }
+      }, {
+        "uid" : "3d62cb5527ba5014",
+        "reportUrl" : "https://jkozma78.github.io/conduit/137//#testresult/3d62cb5527ba5014",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628175465271,
+          "stop" : 1628175475571,
+          "duration" : 10300
+        }
+      }, {
+        "uid" : "f6c57bed01bbbf4a",
+        "reportUrl" : "https://jkozma78.github.io/conduit/137//#testresult/f6c57bed01bbbf4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628174859113,
+          "stop" : 1628174869469,
+          "duration" : 10356
+        }
+      }, {
+        "uid" : "c786c986c505ebf8",
+        "reportUrl" : "https://jkozma78.github.io/conduit/136//#testresult/c786c986c505ebf8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628174432040,
+          "stop" : 1628174442282,
+          "duration" : 10242
+        }
+      }, {
+        "uid" : "1b2773ff8acd44e1",
+        "reportUrl" : "https://jkozma78.github.io/conduit/135//#testresult/1b2773ff8acd44e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628173264293,
+          "stop" : 1628173274625,
+          "duration" : 10332
+        }
+      }, {
+        "uid" : "3af00f36bd96d0ea",
+        "reportUrl" : "https://jkozma78.github.io/conduit/134//#testresult/3af00f36bd96d0ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628172762390,
+          "stop" : 1628172772608,
+          "duration" : 10218
+        }
+      }, {
+        "uid" : "c8d7f0b72b7055e9",
+        "reportUrl" : "https://jkozma78.github.io/conduit/133//#testresult/c8d7f0b72b7055e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628171917573,
+          "stop" : 1628171927784,
+          "duration" : 10211
+        }
+      }, {
+        "uid" : "af033681e18d024d",
+        "reportUrl" : "https://jkozma78.github.io/conduit/132//#testresult/af033681e18d024d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628171282702,
+          "stop" : 1628171292859,
+          "duration" : 10157
+        }
+      }, {
+        "uid" : "a334a946de2aaf7d",
+        "reportUrl" : "https://jkozma78.github.io/conduit/131//#testresult/a334a946de2aaf7d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628169293494,
+          "stop" : 1628169303817,
+          "duration" : 10323
+        }
+      }, {
+        "uid" : "d6f0c3cd6b6c87a9",
+        "reportUrl" : "https://jkozma78.github.io/conduit/130//#testresult/d6f0c3cd6b6c87a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628167633902,
+          "stop" : 1628167644101,
+          "duration" : 10199
+        }
+      }, {
+        "uid" : "7969421ba93c0fe2",
+        "reportUrl" : "https://jkozma78.github.io/conduit/129//#testresult/7969421ba93c0fe2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628166858898,
+          "stop" : 1628166869215,
+          "duration" : 10317
+        }
+      }, {
+        "uid" : "d6724bda40316f01",
+        "reportUrl" : "https://jkozma78.github.io/conduit/128//#testresult/d6724bda40316f01",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"cookie__bar__buttons__button cookie__bar__buttons__button--accept\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628159450565,
+          "stop" : 1628159460600,
+          "duration" : 10035
+        }
+      }, {
+        "uid" : "d9b0d3e840723248",
+        "reportUrl" : "https://jkozma78.github.io/conduit/127//#testresult/d9b0d3e840723248",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class=\"cookie__bar__buttons__button cookie__bar__buttons__button--accept\"]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1628154549394,
+          "stop" : 1628154559425,
+          "duration" : 10031
+        }
+      }, {
+        "uid" : "b4262848beb82c16",
+        "reportUrl" : "https://jkozma78.github.io/conduit/126//#testresult/b4262848beb82c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628151564695,
+          "stop" : 1628151575033,
+          "duration" : 10338
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2e15249e95baf52.json",
+  "parameterValues" : [ ]
+}
